@@ -11,23 +11,27 @@
 
 body {
     height:100%;
-    background-color: lightgrey;
+    background-color: #bccad6;
     margin-bottom: 70px;
 }
 
 .header {
     height: 70px;
     margin-bottom: 40px;
-    background-color: white; 
+    background-color: #8d9db6; 
+    border-radius: 20px;
+    border: outset 1px lightgrey;
 }
 
 .myName { 
     height: 70px;
-    background-color: teal;
+    background-color: #667292;
     color: white;
     padding: 15px;
     font-weight: bold;
     font-size: 25px;
+    border: inset 1px lightgrey;
+    border-radius: 20px 0px 0px 20px;
 }
 
 #bioPic {
@@ -48,9 +52,9 @@ p {
 
 .footer {
     height:70px;
-    background-color: darkgrey;
+    background-color: #8d9db6;
     color:white;
-    border-top: solid 20px teal;
+    border-top: solid 20px #667292;
     text-align: center;
 }
 
@@ -60,18 +64,27 @@ p {
     background-color: white;
     overflow: auto;
     margin-bottom:100px;
+    border-radius: 20px;
 }
 
 .abMeSpace {
-    background-color: white;
+    background-color: #8d9db6;
+    border-radius: 0px 20px 20px 0px;
+    margin-bottom: 10px;
 }
 
 .aboutMe {
     padding: 20px;
-    background-color: white;
-    color: teal;
+    background-color: #667292;
+    color: white;
     font-weight: bold;
     font-size: 25px;
+    margin-bottom: 10px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+#textBackground {
+    background-color: #bccad6;
 }
 
 .textBox {
