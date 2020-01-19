@@ -49,11 +49,11 @@ p {
 }
 
 #projectCarousel {
-    /* background-image: cover; */
     width: 75%;
     height: 600px;
     margin: 25px;
     border: dotted 3px rgb(159, 159, 204);
+    overflow: auto;
     
 }
 
@@ -67,9 +67,11 @@ p {
 .carousel-caption {
     background-color: rgba(18, 20, 56, 0.336);
 }
-/* .carouselPic {
-    width: auto;
-    height: 500px;
-    max-height: 500px;
-    background-image: contain;
-} */
+
+#clickHeader {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 25px 0 0 0;
+    font-style: italic;
+
+}
