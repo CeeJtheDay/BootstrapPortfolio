@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(9, 27, 77);  
+}
+
+#profileCarousel {
+    background-image: contain;
+    width: 75%;
+    height: 475px;
+    margin: 25px;
+    border: dotted 3px rgb(159, 159, 204);
+    background-color:  rgba(227, 227, 235, 0.089);
+    overflow: auto;
+}
+
+#mainNavBar {
+    background-color: rgb(60, 52, 180);
+    border-bottom: groove 3px rgb(159, 159, 204);
+}
+
+#headerName {
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+#aboutMe {
+    color: white;
+    background-color: rgba(227, 227, 235, 0.089);
+    margin-bottom: 75px;
+    border: dotted 3px rgb(159, 159, 204);
+    width: 75%;
+}
+
+#aboutHead {
+    font-size: 40px;
+    margin: 25px 30px 25px 30px;
+    padding-bottom:20px;
+    border-bottom: solid 1px rgb(184, 184, 228);
+    font-family: 'Lobster', cursive;
+
+}
+
+#aboutBody {
+    margin: 0 60px 25px 60px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    text-indent:25px;
+}
+
+#projectCarousel {
+    width: 75%;
+    height: 600px;
+    margin: 25px;
+    border: dotted 3px rgb(159, 159, 204);
+    overflow: auto;
+    
+}
+
+.img {
+    background-size: cover;
+    height: 600px;
+    width: auto;
+
+}
+
+.carousel-caption {
+    background-color: rgba(18, 20, 56, 0.336);
+}
+
+#clickHeader {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 25px 0 0 0;
+    font-style: italic;
+
+}
