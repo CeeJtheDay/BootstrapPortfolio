@@ -13,3 +13,4 @@ module.exports = function(app) {
   app.get("/portfolio", function(req, res) {
     res.render("portfolio");
   });
+};
