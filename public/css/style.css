@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(9, 27, 77);  
+}
+
+#profileCarousel {
+    background-image: contain;
+    width: 75%;
+    height: auto;
+    margin: 25px;
+    border: dotted 3px rgb(159, 159, 204);
+}
+
+#mainNavBar {
+    background-color: rgb(60, 52, 180);
+}
+/* .carouselPic {
+    width: auto;
+    height: 500px;
+    max-height: 500px;
+    background-image: contain;
+} */
