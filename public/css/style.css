@@ -5,9 +5,11 @@ body{
 #profileCarousel {
     background-image: contain;
     width: 75%;
-    height: auto;
+    height: 475px;
     margin: 25px;
     border: dotted 3px rgb(159, 159, 204);
+    background-color:  rgba(227, 227, 235, 0.089);
+    overflow: auto;
 }
 
 #mainNavBar {
@@ -44,6 +46,26 @@ body{
 
 p {
     text-indent:25px;
+}
+
+#projectCarousel {
+    /* background-image: cover; */
+    width: 75%;
+    height: 600px;
+    margin: 25px;
+    border: dotted 3px rgb(159, 159, 204);
+    
+}
+
+.img {
+    background-size: cover;
+    height: 600px;
+    width: auto;
+
+}
+
+.carousel-caption {
+    background-color: rgba(18, 20, 56, 0.336);
 }
 /* .carouselPic {
     width: auto;
