@@ -12,6 +12,38 @@ body{
 
 #mainNavBar {
     background-color: rgb(60, 52, 180);
+    border-bottom: groove 3px rgb(159, 159, 204);
+}
+
+#headerName {
+    font-family: 'Sacramento', cursive;
+    font-size: 40px;
+}
+
+#aboutMe {
+    color: white;
+    background-color: rgba(227, 227, 235, 0.089);
+    margin-bottom: 75px;
+    border: dotted 3px rgb(159, 159, 204);
+    width: 75%;
+}
+
+#aboutHead {
+    font-size: 40px;
+    margin: 25px 30px 25px 30px;
+    padding-bottom:20px;
+    border-bottom: solid 1px rgb(184, 184, 228);
+    font-family: 'Lobster', cursive;
+
+}
+
+#aboutBody {
+    margin: 0 60px 25px 60px;
+    font-family: 'Raleway', sans-serif;
+}
+
+p {
+    text-indent:25px;
 }
 /* .carouselPic {
     width: auto;
